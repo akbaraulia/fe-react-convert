@@ -1,5 +1,9 @@
 
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap");
+.primary-color {
+    background: #0796E5;
+    color: #fff;
+}
 .btn-primary {
     background: -moz-linear-gradient(194deg, #00c9e4 0%, #007bff 100%);
     /* ff3.6+ */
@@ -11,3 +15,16 @@
         color-stop(100%, #00c9e4)
     );
 }
+.loader {
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 3px solid #007bff;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

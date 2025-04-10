@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
                     </div>
                     <input 
                       type="email" 
-                      className={`pl-10 w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${errors.email ? 'border-red-500' : 'border-gray-300'}`} 
+                      className={`pl-10 w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-black ${errors.email ? 'border-red-500' : 'border-gray-300'}`} 
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
@@ -96,7 +96,7 @@ const handleSubmit = async (e) => {
                     </div>
                     <input 
                       type="password" 
-                      className={`pl-10 w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${errors.password ? 'border-red-500' : 'border-gray-300'}`}
+                      className={`pl-10 w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-black ${errors.password ? 'border-red-500' : 'border-gray-300'}`}
                       name="password"
                       value={formData.password}
                       onChange={handleChange}
